@@ -99,3 +99,17 @@ figcaption
 ul li{
     margin-top: 5px;
 }
+
+p::first-letter{
+    font-weight: bold;
+   
+}
+
+:not(p) + p::first-line{
+    font-variant: small-caps;
+}
+
+h1 + p{
+    text-indent: 0;
+}
+
